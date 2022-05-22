@@ -30,12 +30,12 @@
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">Locais</a>
-                <div class="dropdown-menu" aria-labelledby="=navbarDropdown">
-                  <a href="local.html" class="dropdown-item">California</a>
-                  <a href="local.html" class="dropdown-item">Paris</a>
-                  <a href="local.html" class="dropdown-item">Dublin</a>
-                </div>
-            </li> 
+              <div class="dropdown-menu" aria-labelledby="=navbarDropdown">
+                <a href="local.html" class="dropdown-item">California</a>
+                <a href="local.html" class="dropdown-item">Paris</a>
+                <a href="local.html" class="dropdown-item">Dublin</a>
+              </div>
+            </li>
             <li class="nav-item">
               <a href="planos.html" class="nav-link">Planos</a>
             </li>
@@ -53,6 +53,65 @@
       </div>
     </nav>
   </header>
+
+  <section class="container-fuid  text-light">
+    <div class="row bg-dark">
+      <div class="col-lg-7">
+        <div id="caroulselCidades" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#caroulselCidades" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#caroulselCidades" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#caroulselCidades" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/california.jpg" class="d-block w-100" alt="California">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">California</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/dublin.jpg" class="d-block w-100" alt=".Dublin">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">Dublin</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/california.jpg" class="d-block w-100" alt="California">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">California</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#caroulselCidades"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#caroulselCidades"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-lg-5 p-4 align-self-center">
+        <h1 class="display-4">Realize a viagen do seu Sonho</h1>
+        <p class="lead">O melhor local para viajar é com a Caravan. mais de 5.000 excursões concluídas</p>
+        <form>
+          <div class="input-group input-group-lg mb-3">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+              aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="button-addon2">Inscreva-se</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
