@@ -13,6 +13,34 @@
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginTitulo">Entre na Sua Conta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="loginEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="loginEmail">
+            </div>
+            <div class="mb-3">
+              <label for="loginSenha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="loginSenha">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar na Conta</button>
+            <div class="form-text">
+              Esqueceu a senha? <a href="#">Clique aqui</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fecha Modal -->
 
   <header>
     <!-- Navbar -->
@@ -44,7 +72,7 @@
               <a href="contato;html" class="nav-link">Contato</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Login</a>
+              <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
             </li>
             <li class="nav-item">
               <a href="inscricao.html" class="btn btn-outline-primary ms-md-2">Inscreva-se</a>
@@ -292,7 +320,8 @@
           <ul class="list-unstyled text-secondary">
             <li><a href="#" class="btn btn-outline-secondary btn-sm d-block mb-2" style="max-width: 140px;">Facebook</a>
             </li>
-            <li><a href="#" class="btn btn-outline-secondary btn-sm d-block mb-2" style="max-width: 140px;">Instagram</a>
+            <li><a href="#" class="btn btn-outline-secondary btn-sm d-block mb-2"
+                style="max-width: 140px;">Instagram</a>
             </li>
             <li><a href="#" class="btn btn-outline-secondary btn-sm d-block mb-2" style="max-width: 140px;">Youtube</a>
             </li>
