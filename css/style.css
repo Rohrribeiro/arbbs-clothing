@@ -23,6 +23,14 @@ a {
   }
 }
 
-.pergunta {
+.pergunta  {
   border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.lista-plano li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lista-plano li {
+  padding: 1rem;
 }
